@@ -1,0 +1,79 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.*
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+# Dependency directories
+node_modules/
+jspm_packages/
+pnp.js
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+# Vite
+.vite/
+.vite-cache/
+*.cache
+# NestJS
+.cache/
+.cache-loader/
+out/
+.tmp
+# Coverage directories
+coverage/
+.nyc_output/
+lcov-report/
+# Temporary files
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+# Build output directories
+output/
+bin/
+lib/
+docs/
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+# IDE and editor files
+*.swp
+*.swo
+*.bak
+*.orig
+*~
+*.backup
+*.sass-cache/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.venv/
+# Git ignore for monorepo root workspace files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+# Ignore local development environment files
+*.local
+# Ignore test and coverage output
+coverage/
+*.lcov
+# Git ignore for Vite dev server cache
+node_modules/.vite
+
+.turbo

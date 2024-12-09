@@ -10,19 +10,16 @@ function App() {
 
   async function getCount() {
     const response = await axios.get(`${API_URL}`);
-    console.log('Count:', response.data);
     setCount(response.data)
   }
   
   async function sumCount() {
     const response = await axios.post(`${API_URL}/sum`);
-    console.log('Incremented Count:', response.data);
     setCount(response.data)
   }
   
   async function resCount() {
     const response = await axios.post(`${API_URL}/res`);
-    console.log('Reset Count:', response.data);
     setCount(response.data)
   }
   
